@@ -26,6 +26,10 @@ let friend = "Emily"
 var friendAge = getAge(friend)
 happyBirthday(friendAge)
 
+func cashOnHand(amount: Int) -> String {
+    return "I now have \(amount)!"
+}
+cashOnHand(2000)
 
 func birthdayGreeting(age: Int) -> String {
     return "Happy birthday #\(age)!"
